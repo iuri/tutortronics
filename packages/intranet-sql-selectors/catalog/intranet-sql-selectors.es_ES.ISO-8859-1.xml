@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-sql-selectors" locale="es_ES" charset="ISO-8859-1">
+
+  <msg key="Admin">Administrar</msg>
+  <msg key="Admin_Selectors">Admin Selectores</msg>
+  <msg key="Filter_Selectors">Filtrar Selectores</msg>
+  <msg key="My_Results">Mis Resultados</msg>
+  <msg key="Object_Type">Tipo de Objeto</msg>
+  <msg key="Object_Type_Projects">Proyectos</msg>
+  <msg key="Object_Type_Tickets">Tickets</msg>
+  <msg key="Selector_Name">Nombre</msg>
+  <msg key="Total_Results">Total Resultados</msg>
+</message_catalog>

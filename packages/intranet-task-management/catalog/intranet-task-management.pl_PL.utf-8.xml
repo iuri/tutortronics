@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-task-management" locale="pl_PL" charset="utf-8">
+
+  <msg key="Status_grey_blurb">Zakończony</msg>
+  <msg key="Status_purple_blurb">Niezdefiniowany</msg>
+  <msg key="Status_red_blurb">Opóźniony</msg>
+  <msg key="Task_Management">Zarządzanie taskami</msg>
+  <msg key="Tasks_for_User">Taski użytkownika</msg>
+  <msg key="Tasks_for_user_name">Taski %user_name%</msg>
+  <msg key="Tasks_in_Projec">Taski w projekcie</msg>
+  <msg key="Tasks_in_project_name">Taski w %project_name%</msg>
+</message_catalog>

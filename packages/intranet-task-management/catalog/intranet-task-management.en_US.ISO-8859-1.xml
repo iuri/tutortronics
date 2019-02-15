@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-task-management" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="Status_blue_blurb">Not started yet</msg>
+  <msg key="Status_grey_blurb">Finished</msg>
+  <msg key="Status_purple_blurb">Undefined</msg>
+  <msg key="Status_red_blurb">Late</msg>
+  <msg key="Status_yellow_blurb">In process (late)</msg>
+  <msg key="Task_Management">Task Management</msg>
+  <msg key="Tasks_for_User">Tasks for User</msg>
+  <msg key="Tasks_for_user_name">Tasks for %user_name%</msg>
+  <msg key="Tasks_in_Projec">Tasks in Project</msg>
+  <msg key="Tasks_in_project_name">Tasks in %project_name%</msg>
+</message_catalog>

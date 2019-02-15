@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-reporting-indicators" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="Admin_Indicators">Admin Indicators</msg>
+  <msg key="AdminLinks">Admin</msg>
+  <msg key="Description">Description</msg>
+  <msg key="Edit">Edit</msg>
+  <msg key="EditIndicator">Edit Indicator</msg>
+  <msg key="EditIndicators">Edit Indicator</msg>
+  <msg key="End_Date">End Date</msg>
+  <msg key="Filter_Indicator">Filter Indicators</msg>
+  <msg key="Filter_Indicators">Filter Indicators</msg>
+  <msg key="History">History</msg>
+  <msg key="Home_Indicator_Component">Home Indicator Portlet</msg>
+  <msg key="Indicators">Indicators</msg>
+  <msg key="Max_Days_Set">Max. Days Set</msg>
+  <msg key="More_dots">...</msg>
+  <msg key="Name">Name</msg>
+  <msg key="Object_Type">Object Type</msg>
+  <msg key="Query_did_not_return_any_value">Query did not return any value</msg>
+  <msg key="Query_did_not_return_value">Query did not return any value</msg>
+  <msg key="Section">Section</msg>
+  <msg key="SetPermissions">Set Permissions</msg>
+  <msg key="ShowAllIndicators">Show All Incidators</msg>
+  <msg key="Start_Date">Start Date</msg>
+  <msg key="Value">Value</msg>
+  <msg key="ViewTimeline">View Timeline</msg>
+</message_catalog>

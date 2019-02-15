@@ -1,0 +1,27 @@
+ad_library {
+
+    Initialization for intranet-rest module
+    
+    @author Frank Bergmann (frank.bergmann@project-open.com)
+    @creation-date 10 May, 2011
+    @cvs-id $Id: intranet-rest-init.tcl,v 1.4 2014/02/05 12:24:11 cvs Exp $
+
+}
+
+
+# Register handler procedures for the various HTTP methods
+ad_register_proc GET /intranet-rest/* im_rest_call_get
+ad_register_proc POST /intranet-rest/* im_rest_call_post
+
+if {[catch {
+    ad_register_proc PUT /intranet-rest/* im_rest_call_put
+    ad_register_proc DELETE /intranet-rest/* im_rest_call_delete
+} err_msg]} {
+    ns_log Error "intranet-rest-init: Error initializing PUT or DELETE verbs: $err_msg"
+}
+
+# Create a global cache for im_rest entries
+# The cache is bound by global timeout of 1 hour currently.
+ns_cache create im_rest -timeout 3600
+
+

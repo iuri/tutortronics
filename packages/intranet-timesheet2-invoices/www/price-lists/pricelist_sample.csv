@@ -1,0 +1,24 @@
+uom;company;task_type;material;price;currency
+
+# The system ignores empty lines and lines starting with a '#' (comments);;;;;
+# Please save this file to your local disc an replace 'company_path' by the...;;;;;
+# ... path of your company.;;;;;
+
+
+# Default prices for EUR - These prices are used if no other information is specified;;;;;
+Hour;company_path;;;100;EUR
+Day;company_path;;;800;EUR
+
+# Hourly prices for specific materials;;;;;
+Hour;company_path;;sw_java_hour;80;EUR
+Hour;company_path;;sw_testing_hour;40;EUR
+Hour;company_path;;pm_pm_hour;120;EUR
+
+# Daily prices for specific materials;;;;;
+Day;company_path;;sw_java_hour;800;EUR
+Day;company_path;;sw_testing_hour;400;EUR
+Day;company_path;;pm_pm_hour;1000;EUR
+
+# Default prices for USD - These prices are used if no other information is specified;;;;;
+Hour;company_path;;;120;USD
+Day;company_path;;;1000;USD

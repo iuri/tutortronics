@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-resource-management" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="Availability_title_cost_center">Verfügbarkeit Kostenstelle</msg>
+  <msg key="Availability_title_default">Verfügbarkeit</msg>
+  <msg key="Count_Absences">Abwesenheiten zählen?</msg>
+  <msg key="Count_Absences_Help">Abwesenheiten können bei der Projektplanung berücksichtigt worden sein oder nicht. Dieser Bericht kennt diese Entscheidung nicht. Deshalb muss der Benutzer den ?Abwesenheiten zählen??-Parameter entsprechend setzen.</msg>
+  <msg key="Date_Scale">Datumsachse</msg>
+  <msg key="Dim_day_of_month">Tag</msg>
+  <msg key="Dim_month_of_year">Monat</msg>
+  <msg key="Dim_year">Jahr</msg>
+  <msg key="Home">Übersicht</msg>
+  <msg key="Percentage_Report_Help">&lt;h2&gt;Ressourcemanagement-Bericht&lt;/h2&gt;
+&lt;p&gt;Dieser Bericht zeigt die Zuweisung von natürlichen Personen zu Aufgaben
+aggregiert auf Projekte, Benutzer und Abteilungen.&lt;/p&gt;
+&lt;p&gt;Wichtige Bemerkungen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Effektive Arbeitszeit&lt;/b&gt;:&lt;br&gt;
+    Die Werte in diesem Report beziehen sich auf Prozent-Zuweisungen der
+    effektiven Arbeitszeit (Verfügbarkeit) von Ressourcen (wie auch in MS-Project).
+    Die Verfügbarkeit von Ressourcen kann in dem Portlet &#39;Mitarbeiter Informationen&#39;
+    auf der jeweiligen Benutzerseite definiert werden.
+
+&lt;li&gt;&lt;b&gt;Dauer und Genauigkeit der Zuweisungen&lt;/b&gt;:&lt;br&gt;
+    Derzeit werden Zuweisungen nur auf ganze Tage unterstützt, wobei sowohl
+    das Anfangs- wie das Enddatum eingeschlossen sind.
+    Zukünftige Versionen dieses Berichts werden minutengenaue Zuweisungen
+    unterstützen.
+&lt;li&gt;&lt;b&gt;Urlaub und andere Abwesenheiten&lt;/b&gt;:&lt;br&gt;
+    Abwesenheiten werden von einigen Firmen in die Projektplanung integriert, und von
+    anderen nicht. Deshalb enhält dieser Bericht eine &#39;Abwesenheiten zählen?&#39; Option.
+&lt;/ul&gt;</msg>
+  <msg key="Planning_Granularity">Granularitäts-Planung</msg>
+  <msg key="Resource_Assignation__">Ressourcen-Zuweisung %</msg>
+  <msg key="Resource_Assignments">Ressourcen-Zuweisung</msg>
+  <msg key="Resource_Management_Home">Ressourcenmanagement</msg>
+  <msg key="Resource_Planning_based_on_Planned_Hours">Ressourcenplanung - Basierend auf geplanten Stunden</msg>
+  <msg key="Resource_Planning_Report">Ressourcenplanung - Hauptbericht</msg>
+  <msg key="Show_Days">Tage</msg>
+  <msg key="Show_Hours">Stunden</msg>
+  <msg key="Show_Percentage">Prozent</msg>
+  <msg key="Show_Value">Wert</msg>
+  <msg key="Year_and_Month">Jahr und Monat</msg>
+  <msg key="Year_and_Week">Jahr und Woche</msg>
+  <msg key="Year_Month_and_Day">Jahr, Monat und Tag</msg>
+  <msg key="Year_Week_and_Day">Jahr, Woche und Tag</msg>
+</message_catalog>

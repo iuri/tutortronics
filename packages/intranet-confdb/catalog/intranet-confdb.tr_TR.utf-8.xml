@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-confdb" locale="tr_TR" charset="utf-8">
+
+  <msg key="Conf_Item_Name">İsim</msg>
+  <msg key="Configuration_Items">Konfigürasyon</msg>
+</message_catalog>

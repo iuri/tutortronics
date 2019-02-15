@@ -1,0 +1,48 @@
+/*
+ * app.json
+ *
+ * Copyright (c) 2011 - 2014 ]project-open[ Business Solutions, S.L.
+ * This file may be used under the terms of the GNU General Public 
+ * License version 3.0 or alternatively unter the terms of the ]po[ 
+ * FL or CL license as specified in www.project-open.com/en/license.
+ */
+{
+    "name": "List",
+    "js": [{
+            "path": "/senchatouch-v242/sencha-touch-all-debug.js"
+        }, {
+            "path": "app.js",
+            "update": "delta"
+	}],
+    "css": [{
+            "path": "/senchatouch-v242/resources/css/sencha-touch.css",
+            "update": "delta"
+        }, {
+            "path": "/senchatouch-timesheet/resources/css/app.css",
+            "update": "delta"
+        }],
+    "appCache": {
+        "cache": ["index.html"],
+        "network": ["*"],
+        "fallback": []
+    },
+    "extras": [
+        "contacts.json",
+        "resources/icons",
+        "resources/loading"
+    ],
+    "archivePath": "archive",
+    "buildPaths": {
+        "testing": "../../deploy/testing/list",
+        "production": "../../deploy/production/list",
+        "package": "../../deploy/package/list",
+        "native": "../../deploy/native/list"
+    },
+    "buildOptions": {
+        "product": "touch",
+        "minVersion": 3,
+        "debug": false,
+        "logger": "no"
+    },
+    "id": "3a867610-670a-11e1-a90e-4318029d18bb"
+}

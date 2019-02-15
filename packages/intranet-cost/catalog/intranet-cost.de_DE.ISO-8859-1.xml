@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-cost" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="Absences">Abwesenheiten</msg>
+  <msg key="Accounts_Payable">Lieferantenbuchhaltung</msg>
+  <msg key="Accounts_Receivable">Kundenbuchhaltung</msg>
+  <msg key="Ad_hoc_amount">Betrag</msg>
+  <msg key="Ad_hoc_cost_center">Kostenstelle</msg>
+  <msg key="Ad_hoc_customer_name">Kunde</msg>
+  <msg key="Ad_hoc_document_nr">Nr.</msg>
+  <msg key="Ad_hoc_due_date">Fällig</msg>
+  <msg key="Ad_hoc_paid_amount">Bezahlt</msg>
+  <msg key="Ad_hoc_provider_name">Lieferant</msg>
+  <msg key="Admin">Admin</msg>
+  <msg key="Admin_Cost_Centers">Admin - Kostenstellen</msg>
+  <msg key="AdminCostCenter">Admin - Kostenstellen</msg>
+  <msg key="Administration">Admin</msg>
+  <msg key="All_Costs">Alle Kosten</msg>
+  <msg key="Amount">Betrag</msg>
+  <msg key="Amount_without_VAT">Betrag ohne MwSt.</msg>
+  <msg key="Availability">Verfügbakeit</msg>
+  <msg key="Bill">Lieferantenrechnung</msg>
+  <msg key="Client">Kunde</msg>
+  <msg key="Code_Parent">Code Eltern</msg>
+  <msg key="Companies">Firmen</msg>
+  <msg key="Company">Firma</msg>
+  <msg key="context">Kontext</msg>
+  <msg key="Cost_Center">Kostenstelle</msg>
+  <msg key="Cost_Center_help">&lt;ul&gt;
+&lt;li&gt;Bitte setzen Sie den ?Kostenstellen-Code? richtig, um die Kostenstellen in richtiger Ordnung anzuzeigen. Bitte benutzen Sie die Kontexthilfe oben auf dieser Seite für weitergehende Informationen.&lt;/li&gt;
+&lt;li&gt;Bitte löschen Sie keine Kostenstellen in einem produktiven System. Wenn möglich, stellen Sie Kostenstellen einfach auf ?inaktiv?.&lt;/li&gt;
+&lt;/ul&gt;</msg>
+  <msg key="Cost_Center_permissions_help">Kostenstelle Hilfe zu Berechtigungen</msg>
+  <msg key="Cost_Centers">Kostenstellen</msg>
+  <msg key="Cost_Items">Kosten</msg>
+  <msg key="CostCenter">Kostenstellen-Code</msg>
+  <msg key="CostCenter_short">KC</msg>
+  <msg key="CostCenterStatus">Status</msg>
+  <msg key="create">create</msg>
+  <msg key="Created">Erzeugt</msg>
+  <msg key="CreateNewCostCenter">Neue Kostenstelle</msg>
+  <msg key="Creator">Erzeuger</msg>
+  <msg key="Currency">Währung</msg>
+  <msg key="Customer">Kunde</msg>
+  <msg key="Customer_Invoices">Kundenrechnungen</msg>
+  <msg key="Customer_Links">Kundenlinks</msg>
+  <msg key="Customers">Kunden</msg>
+  <msg key="Del">Löschen</msg>
+  <msg key="Deleted">Gelöscht</msg>
+  <msg key="Department">Abteilung</msg>
+  <msg key="DepartmentP">Abteilung?</msg>
+  <msg key="DeptQuest">Abteilung?</msg>
+  <msg key="Description">Beschreibung</msg>
+  <msg key="Direct_Parent">Oberobjekt</msg>
+  <msg key="Document">Dokument</msg>
+  <msg key="Document_Status">Dokumentenstatus</msg>
+  <msg key="Document_Type">Typ</msg>
+  <msg key="Documentation">Dokumentation</msg>
+  <msg key="Due">Fällig</msg>
+  <msg key="Due_Date">Fällig</msg>
+  <msg key="Edit_Cost">Kosten bearbeiten</msg>
+  <msg key="Effective_Date">Rechnungsdatum</msg>
+  <msg key="Employees">Mitarbeiter</msg>
+  <msg key="Est_Profit">Erwarteter Gewinn</msg>
+  <msg key="Exchange_Rates">Wechselkurse</msg>
+  <msg key="Exp_Budget">Erwartetes Budget</msg>
+  <msg key="Exp_Costs">Erwartete Kosten</msg>
+  <msg key="Expense_Budget">Budget für Ausgaben</msg>
+  <msg key="Expenses">Andere Kosten</msg>
+  <msg key="Export_Finance_to_CSV">Finanzen nach CSV exportieren</msg>
+  <msg key="Filed">Archiviert</msg>
+  <msg key="Filter_Costs">Filter</msg>
+  <msg key="Filter_Documents">Dokumente filtern</msg>
+  <msg key="Finance">Finanzen</msg>
+  <msg key="finance">Finanzen</msg>
+  <msg key="Finance_Dashboard">Finanzen-Dashboard</msg>
+  <msg key="Finance_Home">Finanzen - Übersicht</msg>
+  <msg key="Finance_List_Complete">Finanzen-Liste vollständig</msg>
+  <msg key="Finance_Summary">Finanzen - Zusammenfassung</msg>
+  <msg key="Financial_Documents">Finanzdokumente</msg>
+  <msg key="Financial_Indicators_Timeline">Zeitleiste Finanzindikatoren</msg>
+  <msg key="Financial_Summary">Finanzen Zusammenfassung</msg>
+  <msg key="Go">Los</msg>
+  <msg key="Grand_Total">Gesamtsumme</msg>
+  <msg key="Help_Blurb">Finanzen - Hilfe</msg>
+  <msg key="InheritFrom">Erben von</msg>
+  <msg key="Investment">Investition</msg>
+  <msg key="Invoice">Rechnungen</msg>
+  <msg key="Invoicing_Quoting_Wizards">Rechnungs- &amp; Angebotsassistenten</msg>
+  <msg key="Invoicing_Wizards_Help">&lt;p&gt;Diese Tabelle enthält Assistenten um Finanzdokumente für Kunden (Rechnungen, Angebote und Lieferscheine) zu erstellen auf verschiedene Weisen zu erstellen:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Von Hand&lt;/b&gt;:&lt;br&gt;
+    Dies ist die einfachste Option und lässt Ihnen komplette Freiheit.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Auf Basis von Gantt-Aufgaben (geplanten oder erfassten Stunden)&lt;/b&gt;:&lt;br&gt;
+    Erzeugen Sie ein neues Dokument auf Basis eines Gantt-Projektplans und den
+    geplanten bzw. tatsächlich gleisteten Stunden.
+&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Auf Basis von &amp;lt;Finanzdokumenten&amp;gt;&lt;/b&gt;:&lt;br&gt;
+    Erzeugen Sie ein neues Dokument, indem Sie die Daten eines existierenden
+    Dokuments kopieren.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+</msg>
+  <msg key="lt_Cost_Item_Administrat">Admin - Kostenelemente</msg>
+  <msg key="lt_Create_a_new_purchase">Neuer Auftrag</msg>
+  <msg key="lt_Didnt_find_the_the_vi">Die Sicht &#39;%$view_name%&#39; wurde nicht gefunden.</msg>
+  <msg key="lt_Distribute_costs_acco">Verteilung der Kosten auf Basis von erfassten Stunden</msg>
+  <msg key="lt_Finance_high-level_de">Finanzen - Beschreibung</msg>
+  <msg key="lt_No_financial_document">Keine Finanzdokumente für dieses Projekt gefunden</msg>
+  <msg key="lt_There_are_currently_n">Keine Kosten gefunden für die ausgewählten Filterkriterien</msg>
+  <msg key="lt_This_is_the_homepage_">Dies ist die Finanz Übersicht. Hier finden Sie alle Information über finanzielle Vorgänge mit Kunden und Lieferanten.</msg>
+  <msg key="Manager">Manager</msg>
+  <msg key="Materials_Service_Types">Materialien (Serviceart)</msg>
+  <msg key="more_costs">Weitere Dokumente...</msg>
+  <msg key="Multiple_Currency_Warning">&lt;h2&gt;Inkonsistene Währungen&lt;/h2&gt; &lt;p&gt; 
+
+Dieses Finanzdokument enhält mehr als eine Währung.</msg>
+  <msg key="Name">Name</msg>
+  <msg key="New_Cost">Neue Kosten</msg>
+  <msg key="New_Cost_Item">Neue Kosten</msg>
+  <msg key="New_Customer_Docs">Neues Kundendokument</msg>
+  <msg key="New_Customer_Documents">Neue Kundendokumente</msg>
+  <msg key="New_Customer_Invoices_Quotes">Neue Kundenrechnungen &amp; Angebote</msg>
+  <msg key="New_Provider_Bills_POs">Neue Lieferantenrechnungen &amp; -aufträge</msg>
+  <msg key="New_Provider_Docs">Neues Lieferantendokument</msg>
+  <msg key="New_Provider_Documents">Neue Lieferantendokumente</msg>
+  <msg key="New_Timesheet_Invoice">Neue Zeiterfassungsrechnung</msg>
+  <msg key="New_Trans_Invoice">Neue Ubersetzungsrechnung</msg>
+  <msg key="Next_Page">Nächste Seite</msg>
+  <msg key="Note">Notiz</msg>
+  <msg key="Number_billable_expenses">Anzahl abrechenbarer Kostenelemente</msg>
+  <msg key="Options">Optionen</msg>
+  <msg key="Order_Wizards">Assistent für Angebote und Lieferantendokumente</msg>
+  <msg key="Order_Wizards_Help">Diese Tabelle enthält Assistenten und Finanzdokumente für Lieferanten (Angebote, Lieferantenrechnungen, ...) zu erstellen:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Von Hand&lt;/b&gt;:&lt;br&gt;
+    Dies ist die einfachste Option und lässt Ihnen komplette Freiheit.
+&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Auf Basis von &amp;lt;Finanzdokuments&amp;gt;&lt;/b&gt;:&lt;br&gt;
+    Erzeugen Sie ein neues Dokument, indem Sie die Daten eines existierenden 
+    Dokuments kopieren.
+&lt;/li&gt;
+&lt;/ul&gt;
+</msg>
+  <msg key="Org_Amount">Org</msg>
+  <msg key="Outdated_Message">Überalterte Wechselkurs Warnung</msg>
+  <msg key="Outdated_since_x_days">Überholt seit %days% Tagen</msg>
+  <msg key="Outstanding">Ausstehend</msg>
+  <msg key="Paid">Bezahlt</msg>
+  <msg key="Paid_Amount">Betrag bezahlt</msg>
+  <msg key="Paid_Currency">Währung bezahlt</msg>
+  <msg key="Partially_Paid">Teilweise bezahlt</msg>
+  <msg key="Past_Due">Abgelaufen</msg>
+  <msg key="Payment_Days">Zahlungsziel</msg>
+  <msg key="Payments">Zahlungen</msg>
+  <msg key="Perms">Perms</msg>
+  <msg key="Please_Select">Bitte wählen</msg>
+  <msg key="POs">Lieferantenaufträge</msg>
+  <msg key="Preliminary_Costs">Vorläufige Kosten</msg>
+  <msg key="Preliminary_Total">Vorläufige Summe</msg>
+  <msg key="Previous_Page">Letzte Seite</msg>
+  <msg key="Print_Template">Vorlage für Druckerausgabe</msg>
+  <msg key="Profit">Gewinn</msg>
+  <msg key="Project">Projekt</msg>
+  <msg key="Provider">Lieferant</msg>
+  <msg key="Provider_Bills">Lieferantenrechnungen</msg>
+  <msg key="Provider_Links">Lieferantenlinks</msg>
+  <msg key="Providers">Lieferant</msg>
+  <msg key="Purchase_Orders">Aufträge</msg>
+  <msg key="Quotes">Angebote</msg>
+  <msg key="Real_Costs">Echte Kosten</msg>
+  <msg key="Rejected">Zurückgewiesen</msg>
+  <msg key="Repeating_Costs">Wiederkehrende Kosten</msg>
+  <msg key="Reports">Berichte</msg>
+  <msg key="Requested">Angefragt</msg>
+  <msg key="Save">Speichern</msg>
+  <msg key="Sortkey_Parent">Sortierreihenfolge Eltern</msg>
+  <msg key="Start_Block">Startwoche</msg>
+  <msg key="Status">Status</msg>
+  <msg key="Sum">Summe</msg>
+  <msg key="TAX">Steuer</msg>
+  <msg key="The_exchange_rates_are_outdated">Die Wechselkurse für die folgenden Währungen sind veraltet. Bitte kontaktieren sie ihren Systemadministrator um die folgenden Wechselkurse zu aktualisieren:</msg>
+  <msg key="Timesheet_Budget">Zeiterfassungsbudget</msg>
+  <msg key="Timesheet_Costs">Zeiterfassungskosten</msg>
+  <msg key="Top_10_Unpaid_Customer_Invoices">Top 10 - Unbezahlte Kundenrechnungen</msg>
+  <msg key="Top_10_Unpaid_Provider_Bills">Top 10 - Unbezahlte Lieferantenrechnungen</msg>
+  <msg key="TS_Budget">Budget Zeiterfassung</msg>
+  <msg key="TS_Costs">Kosten Zeiterfassung</msg>
+  <msg key="Type">Typ</msg>
+  <msg key="UnableToCalculateProfit">Gewinn kann nicht berechnet werden</msg>
+  <msg key="Update_Exchange_Rates">Wechselkurse aktualisieren</msg>
+  <msg key="VAT">MwSt.</msg>
+  <msg key="Who_gets_the_money">Wer erhält das Geld?</msg>
+  <msg key="Who_pays">Wer zahlt?</msg>
+</message_catalog>

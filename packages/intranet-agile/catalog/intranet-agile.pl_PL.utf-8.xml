@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-agile" locale="pl_PL" charset="utf-8">
+
+  <msg key="Agile_Tasks">Taski</msg>
+  <msg key="Burn_Down_Chart">Wykres spalania</msg>
+  <msg key="Task_Board">Task board</msg>
+</message_catalog>
