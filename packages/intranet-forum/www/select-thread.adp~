@@ -1,0 +1,4 @@
+<master>
+
+<h1>Move thread "@thread_name;noquote@" to other thread </h1>
+<listtemplate name="threads"></listtemplate>
