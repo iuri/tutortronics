@@ -7,7 +7,7 @@
 --
 -- @creation-date 20003-05-14
 --
--- @cvs-id $Id: authentication-drop.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: authentication-drop.sql,v 1.1 2003/08/22 11:38:08 peterm Exp $
 --
 
 declare

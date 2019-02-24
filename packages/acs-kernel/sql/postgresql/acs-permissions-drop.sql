@@ -5,7 +5,7 @@
 --
 -- @author rhs@mit.edu
 --
--- @cvs-id $Id: acs-permissions-drop.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: acs-permissions-drop.sql,v 1.2 2004/06/18 18:21:57 jeffd Exp $
 --
 
 --drop view acs_object_party_method_map;

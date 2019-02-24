@@ -7,7 +7,7 @@
 --
 -- @creation-date 20003-08-21
 --
--- @cvs-id $Id: authentication-create.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: authentication-create.sql,v 1.16 2008/09/09 14:39:38 daveb Exp $
 --
 
 create table auth_authorities (

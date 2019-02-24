@@ -5,7 +5,7 @@ ad_library {
 
     @author <yourname> (<your email>)
     @creation-date 2007-09-17
-    @cvs-id $Id: proxy-procs.tcl,v 1.3 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: proxy-procs.tcl,v 1.5.2.4 2016/10/10 08:44:50 gustafn Exp $
 }
 
 #
@@ -27,10 +27,22 @@ if {![catch {ns_proxy configure ExecPool -maxruns 0}]} {
         set handle [ns_proxy get ExecPool]
         with_finally -code {
             if {[info exists cd]} {
+                #
+                # We were requested to switch to a different
+                # directory. Remember the old directory before
+                # switching to the new one.
+                #
+                set pwd [ns_proxy eval $handle pwd]
                 ns_proxy eval $handle [list cd $cd]
             }
             set return_string [ns_proxy eval $handle [list ::exec {*}$call]]
         } -finally {
+            if {[info exists pwd]} {
+                #
+                # Switch back to the previous directory.
+                #
+                ns_proxy eval $handle [list cd $pwd]
+            }
             ns_proxy release $handle
         }
         return $return_string

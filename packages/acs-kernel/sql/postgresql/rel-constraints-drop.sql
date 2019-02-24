@@ -3,7 +3,7 @@
 -- 
 -- @author Oumi Mehrotra
 -- @creation-date 2000-11-22
--- @cvs-id $Id: rel-constraints-drop.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: rel-constraints-drop.sql,v 1.3 2011/07/07 10:46:02 gustafn Exp $
 \t
 CREATE OR REPLACE FUNCTION  inline_0 () RETURNS integer AS $$
 BEGIN

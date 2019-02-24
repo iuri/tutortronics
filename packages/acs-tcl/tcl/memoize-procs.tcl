@@ -8,7 +8,7 @@ ad_library {
     @author Gustaf Neumann
 
     @creation-date 2000-10-19
-    @cvs-id $Id: memoize-procs.tcl,v 1.6 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: memoize-procs.tcl,v 1.14.2.3 2017/12/01 18:23:01 gustafn Exp $
 }
 
 
@@ -26,7 +26,7 @@ if {[ns_info name] eq "NaviServer"} {
     #
     # Flush the existing util memoize cache to get rid of any previous
     # caching conventions.  This is actually just needed for the
-    # upgrade from an aolserver based util_memoize cache to the
+    # upgrade from an AOLserver based util_memoize cache to the
     # NaviServer based one, since the old version kept pairs of values
     # and timestamps, which are not needed, but which might cause
     # confusions, when retrieved later.
@@ -113,7 +113,7 @@ if {[ns_info name] eq "NaviServer"} {
     } {
         set nr_flushed [ns_cache_flush -glob util_memoize $pattern]
         if {$log_p} {
-            ns_log Debug "util_memoize_flush_pattern: flushed $nf_flushed entries using the pattern: $pattern"
+            ns_log Debug "util_memoize_flush_pattern: flushed $nr_flushed entries using the pattern: $pattern"
         }
     }
 

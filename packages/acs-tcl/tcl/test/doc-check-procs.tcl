@@ -3,7 +3,7 @@ ad_library {
 
     @author Jeff Davis
     @creation-date 2005-02-28
-    @cvs-id $Id: doc-check-procs.tcl,v 1.4 2015/12/04 13:50:13 cvs Exp $
+    @cvs-id $Id: doc-check-procs.tcl,v 1.2.14.2 2016/02/13 15:23:47 gustafn Exp $
 }
 
 aa_register_case -cats {smoke production_safe} documentation__check_proc_doc {
@@ -15,7 +15,7 @@ aa_register_case -cats {smoke production_safe} documentation__check_proc_doc {
     set good 0
     foreach p [lsort -dictionary [nsv_array names api_proc_doc]] {
         array set pa [nsv_get api_proc_doc $p]
-        if { $pa(public_p)
+        if { "public" in $pa(protection)
              && !($pa(deprecated_p) || $pa(warn_p))
          } {
             incr count

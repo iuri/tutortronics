@@ -4,7 +4,7 @@
 -- @author Victor Guerra (guerra@galileo.edu)
 -- @creation-date 2006-07-13
 -- @arch-tag: a071e695-59ef-45b2-9705-db1df5a80410
--- @cvs-id $Id: upgrade-5.2.0d11-5.2.0d12.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: upgrade-5.2.0d11-5.2.0d12.sql,v 1.1 2006/07/13 20:43:14 victorg Exp $
 --
 
 -- renaming upgrade script, original script: upgrade-5.1.5-5.2.0a1.sql

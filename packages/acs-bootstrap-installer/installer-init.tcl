@@ -2,7 +2,7 @@
 
 #      @creation-date 02 October 2000
 #      @author Bryan Quinn
-#      @cvs-id $Id: installer-init.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+#      @cvs-id $Id: installer-init.tcl,v 1.3.10.1 2015/09/10 08:21:15 gustafn Exp $
 
 
 # Create a mutex for the installer

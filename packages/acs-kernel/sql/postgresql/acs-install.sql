@@ -5,7 +5,7 @@
 --
 -- @author Peter Marklund
 -- @creation-date 2000/10/01
--- @cvs-id $Id: acs-install.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: acs-install.sql,v 1.28 2011/07/07 10:46:01 gustafn Exp $
 --
 
 

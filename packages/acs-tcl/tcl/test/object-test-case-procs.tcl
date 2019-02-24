@@ -7,7 +7,7 @@ ad_library {
     @author byron Haroldo Linares Roman (bhlr@galileo.edu)
     @creation-date 2006-08-11
     @arch-tag: E1207E78-A4E3-4DC7-BEB7-49EA35B99D69
-    @cvs-id $Id: object-test-case-procs.tcl,v 1.5 2015/12/04 13:50:13 cvs Exp $
+    @cvs-id $Id: object-test-case-procs.tcl,v 1.6.4.1 2015/09/10 08:22:03 gustafn Exp $
 }
 
 aa_register_case \

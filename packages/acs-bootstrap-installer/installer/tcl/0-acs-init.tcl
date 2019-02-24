@@ -5,7 +5,7 @@
 #
 # jsalz@mit.edu, 12 May 2000
 #
-# $Id: 0-acs-init.tcl,v 1.2 2015/12/04 13:49:57 cvs Exp $
+# $Id: 0-acs-init.tcl,v 1.2.2.6 2017/08/01 08:50:23 gustafn Exp $
 
 namespace eval acs {
     #
@@ -20,7 +20,7 @@ namespace eval acs {
     # represented by a list consisting of the internal name, driver name, and
     # "pretty name" (used by the APM to list the available database engines that 
     # one's package can choose to support).  The driver name and "pretty name" happen
-    # to be the same for Postgres and Oracle but let's not depend on that being true
+    # to be the same for PostgreSQL and Oracle but let's not depend on that being true
     # in all cases...
     #
 
@@ -63,7 +63,7 @@ if { [file isfile $bootstrap_file] } {
 		lassign [split $version .] major minor point
 		if {$major == 0 
 		    && ( $minor < 7 || ($minor == 7 && $point < 8))} { 
-		    ns_log Error "0-acs-init.tcl: please use tdom version 0.7.8 or greater (you have version $version)"
+		    ns_log Error "0-acs-init.tcl: please use tDOM version 0.7.8 or greater (you have version $version)"
 		}
 	    }
 	}

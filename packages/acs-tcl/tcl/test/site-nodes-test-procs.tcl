@@ -3,7 +3,7 @@ ad_library {
      Test site node procs
      @author Vinod Kurup [vinod@kurup.com]
      @creation-date Mon Oct 20 16:16:04 2003
-     @cvs-id $Id: site-nodes-test-procs.tcl,v 1.5 2015/12/04 13:50:13 cvs Exp $
+     @cvs-id $Id: site-nodes-test-procs.tcl,v 1.5.12.1 2015/09/10 08:22:04 gustafn Exp $
 }
 
 aa_register_case -cats {

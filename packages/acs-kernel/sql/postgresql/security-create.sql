@@ -8,7 +8,7 @@
 -- @author Richard Li (richardl@arsdigita.com)
 --
 -- @creation-date 2000/02/02
--- @cvs-id $Id: security-create.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: security-create.sql,v 1.9 2015/06/30 21:08:32 gustafn Exp $
 
 create table sec_session_properties (
     session_id     bigint

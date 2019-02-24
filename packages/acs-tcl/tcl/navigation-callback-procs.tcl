@@ -7,7 +7,7 @@ ad_library {
 
     @author Jeff Davis (davis@xarg.net)
     @creation-date 2005-03-11
-    @cvs-id $Id: navigation-callback-procs.tcl,v 1.4 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: navigation-callback-procs.tcl,v 1.2.18.1 2015/09/10 08:21:58 gustafn Exp $
 }
 
 ad_proc -public -callback navigation::package_admin {

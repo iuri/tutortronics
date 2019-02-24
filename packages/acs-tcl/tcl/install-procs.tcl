@@ -5,7 +5,7 @@ ad_library {
 
     @creation-date 2004-06-16
     @author Lee Denison (lee@thaum.net)
-    @cvs-id $Id: install-procs.tcl,v 1.4 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: install-procs.tcl,v 1.30.2.2 2017/04/22 18:11:54 gustafn Exp $
 }
 
 namespace eval install {}
@@ -21,7 +21,7 @@ ad_proc -public install::xml::action::text { node } {
 }
 
 ad_proc -private ::install::xml::action::source { node } {
-    Source an install.xml file, sql file or tcl script during execution of 
+    Source an install.xml file, sql file or Tcl script during execution of 
     the current install.xml.
 
     If no type attribute is specified then this tag will attempt to guess 

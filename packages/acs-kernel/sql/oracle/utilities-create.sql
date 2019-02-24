@@ -1,3 +1,4 @@
+PROMPT starting utilities-create.sql....
 --
 -- /packages/acs-kernel/sql/utilities-create.sql
 --
@@ -5,7 +6,7 @@
 --
 -- @author Jon Salz (jsalz@mit.edu)
 -- @creation-date 12 Aug 2000
--- @cvs-id $Id: utilities-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: utilities-create.sql,v 1.3.2.3 2017/03/07 09:22:40 gustafn Exp $
 --
 
 create or replace package util
@@ -82,8 +83,23 @@ as
         name IN varchar2)
     return boolean
     as
+
+      v_count integer;
+      v_exists boolean;
+
     begin
-      return exists (select 1 from user_tables where table_name = t_name);
+
+      select decode(count(*),0,0,1) into v_count 
+      from user_tables where table_name = upper(table_exists.name);
+
+      if v_count = 1 then
+        v_exists := true;
+      else
+        v_exists := false;
+      end if;
+
+      return v_exists;
+
     END table_exists;
     
     function table_column_exists (
@@ -91,24 +107,65 @@ as
         c_name IN varchar2)
     return boolean
     as
+      v_count integer;
+      v_exists boolean;
+
     begin
-      return exists (select 1 from user_tab_columns where c.table_name = t_name and c.column_name = c_name);
+
+      select decode(count(*),0,0,1) into v_count from user_tab_columns
+      where table_name = upper(table_column_exists.t_name)
+      and column_name = upper(table_column_exists.c_name);
+
+      if v_count = 1 then
+        v_exists := true;
+      else
+        v_exists := false;
+      end if;
+
+      return v_exists;
+      
     END table_column_exists;
     
     function view_exists (
         name IN varchar2)
     return boolean
     as
+      v_count integer;
+      v_exists boolean;
+
     begin
-      return exists (select 1 from user_views where view_name = name);
+
+      select decode(count(*),0,0,1) into v_count 
+      from user_views where view_name = upper(view_exists.name);
+
+      if v_count = 1 then
+        v_exists := true;
+      else
+        v_exists := false;
+      end if;
+
+      return v_exists;
+
     END view_exists;
     
     function index_exists (
         name IN varchar2)
     return boolean
     as
+      v_count integer;
+      v_exists boolean;
+
     begin
-      return exists (select 1 from user_indexes where index_name = name);
+      select decode(count(*),0,0,1) into v_count 
+      from user_indexes where index_name = upper(index_exists.name);
+
+      if v_count = 1 then
+        v_exists := true;
+      else
+        v_exists := false;
+      end if;
+
+      return v_exists;
     END index_exists;
 
 end util;

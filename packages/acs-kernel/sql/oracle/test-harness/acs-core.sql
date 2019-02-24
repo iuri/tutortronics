@@ -7,7 +7,7 @@
 --
 -- @creation-date 2000-08-05
 --
--- @cvs-id $Id: acs-core.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: acs-core.sql,v 1.2 2003/09/30 12:10:02 mohanp Exp $
 --
 
 declare

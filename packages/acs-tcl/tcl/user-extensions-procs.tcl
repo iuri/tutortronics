@@ -7,7 +7,7 @@ ad_library {
 
     @author ben@openforce.net
     @creation-date 2002-01-22
-    @cvs-id $Id: user-extensions-procs.tcl,v 1.4 2015/12/04 13:50:12 cvs Exp $
+    @cvs-id $Id: user-extensions-procs.tcl,v 1.6.2.1 2015/09/10 08:22:01 gustafn Exp $
 
 }
 

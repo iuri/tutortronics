@@ -3,7 +3,7 @@
 --
 -- @author rhs@mit.edu
 -- @creation-date 2000-10-07
--- @cvs-id $Id: groups-test.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: groups-test.sql,v 1.2 2011/07/07 10:46:02 gustafn Exp $
 --
 
 -- set serveroutput on

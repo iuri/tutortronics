@@ -2,7 +2,7 @@ ad_page_contract {
 
     Displays information about a type.
 
-    @cvs-id $Id: type-view.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+    @cvs-id $Id: type-view.tcl,v 1.4.2.1 2015/09/10 08:21:12 gustafn Exp $
 
 } {
     version_id:naturalnum,optional

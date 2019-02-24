@@ -1,7 +1,7 @@
 ad_library {
     Provides methods for communicating between load-balanced servers.
     
-    @cvs-id $Id: server-cluster-procs.tcl,v 1.4 2015/12/04 13:50:11 cvs Exp $
+    @cvs-id $Id: server-cluster-procs.tcl,v 1.9.2.2 2017/04/22 18:11:54 gustafn Exp $
     @author Jon Salz <jsalz@mit.edu>
     @creation-date 7 Mar 2000
 }    
@@ -88,7 +88,7 @@ ad_proc -private ad_canonical_server_p {} {
 
     we're using IP:port to uniquely identify the canonical server, since
     hostname or IP does not always uniquely identify an instance of
-    aolserver (for instance, if we have the aolservers sitting behind a
+    AOLserver (for instance, if we have the aolservers sitting behind a
     load balancer).
 } {
     set canonical_server [parameter::get -package_id [ad_acs_kernel_id] -parameter CanonicalServer]

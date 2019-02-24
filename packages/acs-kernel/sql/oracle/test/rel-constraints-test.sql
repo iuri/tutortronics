@@ -3,7 +3,7 @@
 --
 -- @author oumi@arsdigita.com
 -- @creation-date 2000-12-02
--- @cvs-id $Id: rel-constraints-test.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: rel-constraints-test.sql,v 1.2.24.1 2017/04/21 15:59:20 gustafn Exp $
 --
 
 set serveroutput on
@@ -272,7 +272,7 @@ begin
   rel_constraint.del(side_one_constraint);
   rel_constraint.del(side_two_constraint);
 
-  -- Remove the test memebership relations
+  -- Remove the test membership relations
   for r in (select * from blah_member_rels) loop
     blah_member_rel.del(r.rel_id);
   end loop;
