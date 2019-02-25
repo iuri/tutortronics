@@ -3,7 +3,7 @@
 -- 
 -- @author Victor Guerra (vguerra@gmail.com)
 -- @creation-date 2010-11-15
--- @cvs-id $Id: upgrade-5.7.0d2-5.7.0d3.sql,v 1.2 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: upgrade-5.7.0d2-5.7.0d3.sql,v 1.2 2010/11/24 18:58:45 victorg Exp $
 --
 
 -- Avoiding the usage of the coalesce function 

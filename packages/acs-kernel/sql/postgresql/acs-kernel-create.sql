@@ -5,10 +5,11 @@
 --
 -- @author Michael Yoon (michael@arsdigita.com)
 -- @creation-date 2000/07/29
--- @cvs-id $Id: acs-kernel-create.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: acs-kernel-create.sql,v 1.9.18.1 2016/08/31 18:16:58 gustafn Exp $
 --
 
--- set feedback off
+--\set ECHO queries
+\set VERBOSITY 'verbose'
 
 \i postgresql.sql
 \i lob.sql
@@ -32,9 +33,8 @@
 \i site-nodes-create.sql
 \i site-node-object-map-create.sql
 \i apm-create.sql
-\i acs-create.sql
 
+\i acs-create.sql
 \i acs-create-2.sql
---
 
 -- set feedback on

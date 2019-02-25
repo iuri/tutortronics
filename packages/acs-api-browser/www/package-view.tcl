@@ -7,9 +7,9 @@ ad_page_contract {
         <code>procs</code> or <code>content</code>.
     @author Jon Salz (jsalz@mit.edu)
     @creation-date 3 Jul 2000
-    @cvs-id $Id: package-view.tcl,v 1.7 2016/12/07 14:50:23 cvs Exp $
+    @cvs-id $Id: package-view.tcl,v 1.9.2.5 2015/12/30 12:54:34 gustafn Exp $
 } {
-    { version_id "" }
+    version_id:naturalnum,notnull
     { public_p:boolean "" }
     { kind:word "procs_files" }
     { about_package_key:token ""}
@@ -25,20 +25,6 @@ ad_page_contract {
     sql_files:multirow
     content_pages:multirow
 }
-
-set error_message ""
-set dimensional_slider ""
-if {![info exists show_master_p]} { set show_master_p 1 }
-
-if {![info exists version_id] || "" == $version_id} {
-    if {[info exists package_key] && "" != $package_key} {
-        set version_id [db_string package_version "select min(version_id) from apm_package_versions where package_key = :package_key" -default ""]
-    }
-}
-
-if {"" == $version_id} { set error_message "Package '$package_key' is not installed on this server, so there is no documentation available." }
-if {"all" == $kind} { set kind "procs_files procs sql_files content" }
-set url "/api-doc"
 
 set public_p [::apidoc::set_public $version_id $public_p]
 
@@ -74,10 +60,8 @@ set dimensional_list {
 
 set title "$pretty_name $version_name"
 set context [list $title]
-set dimensional_slider "[ad_dimensional \
-        $dimensional_list \
-        "" \
-        [ad_tcl_vars_to_ns_set version_id kind public_p about_package_key]]"
+set dimensional_slider [ad_dimensional $dimensional_list "" \
+                            [ad_tcl_vars_to_ns_set version_id kind public_p about_package_key]]
 
 switch $kind {
     procs_files {
@@ -121,7 +105,7 @@ switch $kind {
         foreach proc [lsort [array names procs]] {
             array set doc_elements [nsv_get api_proc_doc $proc]
             if { $public_p } {
-                if { !$doc_elements(public_p) } {
+                if { $doc_elements(protection) ne "public"} {
                     continue
                 }
             }

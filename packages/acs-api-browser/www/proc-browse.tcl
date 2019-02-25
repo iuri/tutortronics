@@ -5,7 +5,7 @@ ad_page_contract {
 
     @author Todd Nightingale
     @creation-date 2000-7-14
-    @cvs-id $Id: proc-browse.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+    @cvs-id $Id: proc-browse.tcl,v 1.5.2.2 2015/12/30 12:54:34 gustafn Exp $
 
 } {
     { type "Public" }
@@ -42,9 +42,9 @@ foreach proc [nsv_array names api_proc_doc] {
 	lappend matches [list $proc $doc_elements(script)] 
     } elseif {$type eq "Deprecated" && $doc_elements(deprecated_p)} {
 	lappend matches [list $proc $doc_elements(script)] 
-    } elseif {$type eq "Private" && $doc_elements(private_p) } {
+    } elseif {$type eq "Private" && $doc_elements(protection) eq "private" } {
 	lappend matches [list $proc $doc_elements(script)] 
-    } elseif {$type eq "Public" && $doc_elements(public_p) } {
+    } elseif {$type eq "Public" && $doc_elements(protection) eq "public" } {
 	lappend matches [list $proc $doc_elements(script)] 
     } 
 }

@@ -7,7 +7,7 @@
 --
 -- @author rhs@mit.edu
 --
--- @cvs-id $Id: acs-relationships-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: acs-relationships-create.sql,v 1.14.8.1 2016/08/31 18:57:41 gustafn Exp $
 --
 
 ----------------------------------------------------------------
@@ -52,6 +52,7 @@ create table acs_rel_types (
 	max_n_rels_two	integer
 			constraint acs_rel_types_max_n_2_ck
 			check (max_n_rels_two >= 0),
+    composable_p boolean default 't' not null,
 	constraint acs_rel_types_n_rels_one_ck
 	check (min_n_rels_one <= max_n_rels_one),
 	constraint acs_rel_types_n_rels_two_ck

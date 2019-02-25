@@ -4,19 +4,25 @@ ad_library {
 
     @creation-date 4 Apr 2001
     @author Don Baccus (dhogaza@pacifier.com
-    @cvs-id $Id: 10-utilities-procs.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+    @cvs-id $Id: 10-utilities-procs.tcl,v 1.9.4.2 2017/07/24 11:09:53 gustafn Exp $
 }
 
 ad_proc -public ad_find_all_files {
     {-include_dirs 0}
+    {-include_bak_dirs 0}
     {-max_depth 10}
     {-check_file_func ""}
     path
 } {
 
-    Returns a list of full paths to all files under $path in the directory tree
-    (descending the tree to a depth of up to $max_depth).  Clients should not 
-    depend on the order of files returned.
+    Returns a list of full paths to all files under $path in the
+    directory tree (descending the tree to a depth of up to
+    $max_depth).  Clients should not depend on the order of files
+    returned.
+
+    Per default, the contents of .bak directories (as produced
+    e.g. via "install from repository" are not included. To include
+    these, add the flag "-include_bak_dirs 1" to the invocation.
 
 } {
     # Use the examined_files array to track files that we've examined.
@@ -50,9 +56,12 @@ ad_proc -public ad_find_all_files {
 		    if { [file isfile $file] } {
 			lappend files $file
 		    } elseif { [file isdirectory $file] } {
-			if { $include_dirs == 1 } {
-			    lappend files $file
-			}
+                        if { $include_bak_dirs && [string match "*.bak" $file] } {
+                            continue
+                        }
+                        if { $include_dirs == 1 } {
+                            lappend files $file
+                        }
 			lappend new_files_to_examine {*}[glob -nocomplain "$file/*"]
 		    }
 		}

@@ -8,7 +8,7 @@
 --
 -- @creation-date 2003-10-16
 --
--- @cvs-id $Id: upgrade-5.0.0a1-5.0.0a2.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: upgrade-5.0.0a1-5.0.0a2.sql,v 1.1 2003/10/16 10:57:42 lars Exp $
 --
 
 alter table auth_driver_params drop unique (authority_id, impl_id);

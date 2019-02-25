@@ -35,7 +35,7 @@ ad_library {
 
     @creation-date 2010/04/09
     @author Don Baccus
-    @cvs-id $Id: json-procs.tcl,v 1.5 2016/10/03 17:57:25 cvs Exp $
+    @cvs-id $Id: json-procs.tcl,v 1.6.2.2 2017/04/22 18:11:54 gustafn Exp $
 }
 
 namespace eval util {
@@ -96,19 +96,17 @@ ad_proc -private util::json::validate {jsonText} {
 
 ad_proc util::json::parse {jsonText} {
 
-    Parse JSON text into a tcl list.
+    Parse JSON text into a Tcl list.
 
     @param jsonText JSON text
     @return List containing the object represented by jsonText
 
 } {
-    # ns_log Notice "util::json::parse: jsonText=$jsonText"
     variable tokenRE
 
     set tokens [regexp -all -inline -- $tokenRE $jsonText]
     set nrTokens [llength $tokens]
     set tokenCursor 0
-
     return [parseValue $tokens $nrTokens tokenCursor]
 }
 
@@ -216,7 +214,6 @@ ad_proc -private util::json::parseObject {tokens nrTokens tokenCursorName} {
     @return parsed object (Tcl dict)
 } {
     upvar $tokenCursorName tokenCursor
-    # ns_log Notice "util::json::parseObject: tokens=$tokens, nrTokens=$nrTokens, tokenCursorName=$tokenCursorName, tokenCursor=$tokenCursor"
 
     if {$tokenCursor == $nrTokens} {
         unexpected $tokenCursor "END" "OBJECT"
@@ -316,7 +313,6 @@ ad_proc -private util::json::parseValue {tokens nrTokens tokenCursorName} {
     @return parsed value (dict, list, string, number)
 } {
     upvar $tokenCursorName tokenCursor
-    # ns_log Notice "util::json::parseValue: tokens=$tokens, nrTokens=$nrTokens, tokenCursorName=$tokenCursorName, tokenCursor=$tokenCursor"
 
     if {$tokenCursor == $nrTokens} {
         unexpected $tokenCursor "END" "VALUE"

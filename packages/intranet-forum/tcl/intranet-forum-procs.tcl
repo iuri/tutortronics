@@ -581,6 +581,10 @@ ad_proc -public im_forum_render_tind {
 
     if {$object_admin || $user_id==$owner_id} {
 	append tind_html " (<A href=/intranet-forum/[export_vars -base new {topic_id return_url}]>[_ intranet-forum.Edit]</A>)"
+	append tind_html " (<A href=/intranet-forum/[export_vars -base select-forum { return_url topic_id object_id }]>[_ intranet-forum.Move_to_another_Forum]</A>)"
+	append tind_html " (<A href=/intranet-forum/[export_vars -base select-thread { return_url topic_id object_id }]>[_ intranet-forum.Move_to_another_thread]</A>)"
+	append tind_html " (<A href=/intranet-forum/[export_vars -base delete {topic_id return_url}]>[_ intranet-forum.Delete]</A>)"
+
     }
 
     append tind_html "

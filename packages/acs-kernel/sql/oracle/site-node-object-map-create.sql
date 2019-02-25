@@ -2,7 +2,7 @@
 -- a mechanism for associating location (url) with a certain chunk of data.
 --
 -- @author Ben Adida (ben@openforce)
--- @version $Id: site-node-object-map-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @version $Id: site-node-object-map-create.sql,v 1.2.2.1 2017/03/03 08:21:49 gustafn Exp $
 --
 
 create table site_node_object_mappings (
@@ -17,7 +17,7 @@ create table site_node_object_mappings (
                                     constraint snom_node_id_nn
                                     not null
 );
-create index site_node_object_mappings_node_id_idx on site_node_object_mappings(node_id);
+create index site_node_obj_map_node_id_idx on site_node_object_mappings(node_id);
 
 create or replace package site_node_object_map
 as

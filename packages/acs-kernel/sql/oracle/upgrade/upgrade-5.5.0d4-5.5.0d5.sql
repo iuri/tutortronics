@@ -3,7 +3,7 @@
 -- 
 -- @author Dave Bauer (dave@thedesignexperience.org)
 -- @creation-date 2009-02-11
--- @cvs-id $Id: upgrade-5.5.0d4-5.5.0d5.sql,v 1.3 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: upgrade-5.5.0d4-5.5.0d5.sql,v 1.2 2009/02/14 19:22:59 donb Exp $
 --
 
 

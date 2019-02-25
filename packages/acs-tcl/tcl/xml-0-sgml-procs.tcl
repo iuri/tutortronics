@@ -33,7 +33,7 @@ ad_library {
 # liability for all claims, expenses, losses, damages and costs any user may
 # incur as a result of using, copying or modifying the Software.
 #
-    @cvs-id $Id: xml-0-sgml-procs.tcl,v 1.4 2015/12/04 13:50:12 cvs Exp $
+    @cvs-id $Id: xml-0-sgml-procs.tcl,v 1.4.2.2 2017/04/21 14:22:46 gustafn Exp $
 }
 
 package provide sgml 1.7
@@ -928,7 +928,7 @@ proc sgml::DTD:ELEMENT {id value} {
 #	A syntax tree is constructed.
 #	A transition table is built next.
 #
-#	This is going to need alot of work!
+#	This is going to need a lot of work!
 #
 # Arguments:
 #	state	state array variable

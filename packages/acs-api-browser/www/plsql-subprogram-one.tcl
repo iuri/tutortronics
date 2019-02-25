@@ -8,7 +8,7 @@ ad_page_contract {
 
     @author Michael Yoon (michael@arsdigita.com)
     @creation-date 2000-03-05
-    @cvs-id $Id: plsql-subprogram-one.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+    @cvs-id $Id: plsql-subprogram-one.tcl,v 1.6.2.2 2016/08/02 10:14:41 gustafn Exp $
 } {
     name:token
     type:token
@@ -22,12 +22,8 @@ set context [list {"plsql-subprograms-all" "All PL/SQL Subprograms"} "One PL/SQL
 
 set source_text ""
 
-db_foreach source_text "select text
-from user_source
-where name = upper(:name)
-and type = upper(:type)
-order by line" {
-    append source_text $text
+db_foreach source_text {} {
+    append source_text $text \n\n\n
 }
 
 switch $type {

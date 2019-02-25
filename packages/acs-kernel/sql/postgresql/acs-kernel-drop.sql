@@ -5,7 +5,7 @@
 --
 -- @author Michael Yoon (michael@arsdigita.com)
 -- @creation-date 2000/07/29
--- @cvs-id $Id: acs-kernel-drop.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: acs-kernel-drop.sql,v 1.5 2004/06/18 18:21:57 jeffd Exp $
 --
 
 \i acs-drop.sql

@@ -1,0 +1,5 @@
+ad_page_contract {} {
+    topic_id
+    return_url
+}
+

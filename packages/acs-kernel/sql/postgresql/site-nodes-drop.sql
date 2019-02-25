@@ -3,7 +3,7 @@
 --
 -- @author rhs@mit.edu
 -- @creation-date 2000-09-06
--- @cvs-id $Id: site-nodes-drop.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: site-nodes-drop.sql,v 1.3 2011/07/07 10:46:02 gustafn Exp $
 --
 
 \t

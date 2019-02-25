@@ -10,7 +10,7 @@
 --
 -- @creation-date 19 September 2000
 --
--- @cvs-id $Id: acs-objects-test.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: acs-objects-test.sql,v 1.2 2003/09/30 12:10:02 mohanp Exp $
 
 -- In order for utPLSQL to work, you need to grant 
 -- specific permissions to your user:

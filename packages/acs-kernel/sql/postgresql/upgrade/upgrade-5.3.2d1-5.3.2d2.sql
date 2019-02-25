@@ -3,7 +3,7 @@
 -- 
 -- @author Dave Bauer (dave@thedesignexperience.org)
 -- @creation-date 2007-05-24
--- @cvs-id $Id: upgrade-5.3.2d1-5.3.2d2.sql,v 1.3 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: upgrade-5.3.2d1-5.3.2d2.sql,v 1.2 2007/10/27 22:57:23 donb Exp $
 --
 create or replace function inline_0() returns integer as '
 

@@ -15,7 +15,7 @@
 --
 -- @creation-date 2000-05-18
 --
--- @cvs-id $Id: community-core-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: community-core-create.sql,v 1.19 2009/06/02 00:40:22 donb Exp $
 --
 
 -- HIGH PRIORITY:

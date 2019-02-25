@@ -4,7 +4,7 @@ ad_library {
 
     @author yon (yon@openforce.net)
     @creation-date May 12, 2002
-    @cvs-id $Id: parameter-procs.tcl,v 1.5 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: parameter-procs.tcl,v 1.19.4.4 2017/07/28 02:45:26 gustafn Exp $
 
 }
 
@@ -62,6 +62,7 @@ ad_proc -public parameter::get_global_value {
     @param default what to return if we don't find a value. Defaults to returning the empty string.
 
     @return The string trimmed (leading and trailing spaces removed) parameter value
+    @see parameter::get
 } {
 
     # Is there a parameter by this name in the parameter file?  If so, it takes precedence.
@@ -144,6 +145,7 @@ ad_proc -public parameter::get {
     @param default what to return if we don't find a value. Defaults to returning the empty string.
 
     @return The string trimmed (leading and trailing spaces removed) parameter value
+    @see parameter::get_global_value
 } {
 
     if {$package_id eq ""} {

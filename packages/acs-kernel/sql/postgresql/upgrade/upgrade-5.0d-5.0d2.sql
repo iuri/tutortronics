@@ -3,7 +3,7 @@
 --
 -- @author Simon Carstensen (simon@collaboraid.biz)
 --
--- @cvs-id $Id: upgrade-5.0d-5.0d2.sql,v 1.4 2015/12/04 13:49:25 cvs Exp $
+-- @cvs-id $Id: upgrade-5.0d-5.0d2.sql,v 1.3 2003/08/25 21:40:16 donb Exp $
 --
 
 -- Adds column timezone to table user_preferences

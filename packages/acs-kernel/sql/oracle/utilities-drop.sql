@@ -5,7 +5,7 @@
 --
 -- @author Jon Salz (jsalz@mit.edu)
 -- @creation-date 12 Aug 2000
--- @cvs-id $Id: utilities-drop.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: utilities-drop.sql,v 1.1 2001/03/20 22:51:56 donb Exp $
 --
 
 drop package util;

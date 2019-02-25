@@ -3,7 +3,7 @@ ad_library {
 
     @author Lars Pind (lars@collaboraid.biz)
     @creation-date 2003-10-29
-    @cvs-id $Id: image-procs.tcl,v 1.4 2015/12/04 13:50:10 cvs Exp $
+    @cvs-id $Id: image-procs.tcl,v 1.2.2.2 2017/04/22 18:11:54 gustafn Exp $
 }
 
 namespace eval image {}
@@ -14,7 +14,7 @@ ad_proc -public image::get_info {
 } {
     Get the width and height of an image file. 
     The width and height are returned as 'height' and 'width' entries in the array named in the parameter.
-    Uses ImageMagick instead of aolserver function because it can handle more than
+    Uses ImageMagick instead of AOLserver function because it can handle more than
     just gifs and jpegs. The plan is to add the ability to get more details later.
 
     @param filename Name of the image file in the file system.

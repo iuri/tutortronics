@@ -8,9 +8,9 @@ ad_page_contract {
     @about_package_key a package-key
     @author Jon Salz (jsalz@mit.edu)
     @author Lars Pind (lars@pinds.com)
-    @cvs-id $Id: index.tcl,v 1.4 2015/12/04 13:49:57 cvs Exp $
+    @cvs-id $Id: index.tcl,v 1.7.2.2 2016/05/14 12:38:51 gustafn Exp $
 } {
-    about_package_key:optional
+    about_package_key:token,trim,optional
 } -properties {
     title:onevalue
     context:onevalue

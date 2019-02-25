@@ -5,7 +5,7 @@
 --
 -- @author Michael Yoon (michael@arsdigita.com)
 -- @creation-date 2000-07-27
--- @cvs-id $Id: security-drop.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: security-drop.sql,v 1.2 2015/06/30 21:08:32 gustafn Exp $
 --
 drop package sec_session_property;
 

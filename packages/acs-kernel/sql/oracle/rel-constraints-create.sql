@@ -5,7 +5,7 @@
 --
 -- @author Oumi Mehrotra (oumi@arsdigita.com)
 -- @creation-date 2000-11-22
--- @cvs-id $Id: rel-constraints-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: rel-constraints-create.sql,v 1.5 2006/09/30 16:12:49 emmar Exp $
 
 -- Copyright (C) 1999-2000 ArsDigita Corporation
 -- This is free software distributed under the terms of the GNU Public

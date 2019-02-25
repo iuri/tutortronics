@@ -3,7 +3,7 @@
 --
 -- @author rhs@mit.edu
 -- @creation-date 2000-09-05
--- @cvs-id $Id: site-nodes-create.sql,v 1.4 2015/12/04 13:49:24 cvs Exp $
+-- @cvs-id $Id: site-nodes-create.sql,v 1.9.2.1 2017/03/03 08:21:49 gustafn Exp $
 --
 
 begin
@@ -47,7 +47,7 @@ create table site_nodes (
 );
 
 create index site_nodes_object_id_idx on site_nodes (object_id);
-create index site_nodes_parent_object_node_id_idx on site_nodes(parent_id, object_id, node_id);
+create index site_nodes_parent_obj_node_idx on site_nodes(parent_id, object_id, node_id);
 create index site_nodes_parent_id_idx on site_nodes(parent_id);
 
 
