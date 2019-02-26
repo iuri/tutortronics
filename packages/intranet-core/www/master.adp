@@ -1,3 +1,6 @@
+
+<div class="on1" style="display: none;"></div>
+
 <%= [im_header -show_context_help_p $show_context_help_p $title $header_stuff] %>
 
 <if @user_messages:rowcount@ ne 0>
@@ -102,4 +105,3 @@
     </script>
     </if>
 </if>
-

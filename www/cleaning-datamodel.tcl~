@@ -1,6 +1,6 @@
 
 ad_page_contract {}
-dsdsd
+
 ad_proc delete_audit {
     -audit_last_id
 } {
@@ -17,7 +17,7 @@ ad_proc delete_audit {
 	delete_audit -audit_last_id $audit_id
 	
 	ns_log Notice "DO DELETE IT $audit_id"
-	
+
 	db_dml delete_audit {
 	    DELETE FROM im_audits WHERE audit_id = :audit_last_id
 	}
@@ -36,7 +36,7 @@ db_foreach select_grantees {
 } {
     ns_log Notice "GRANTEEID $grantee_id"
 
-    db_transaction {
+	
 	db_dml delete_user_preferences {
 	    DELETE FROM user_preferences WHERE user_id = :grantee_id
 	}
@@ -77,14 +77,13 @@ db_foreach select_grantees {
 	#db_foreach select_tables {
 	#    SELECT tablename, columnname FROM search_columns(:grantee_id);
 	#} {	
-	
+	    
 	#    ns_log notice "TABLENAME $tablename COLUMN $columnname"
-	
+	    
 	#}
-	
-	#    if {[db_0or1row select_object_type {
-	#	SELECT object_id FROM acs_objects WHERE object_id = :grantee_id AND object_type = 'user'
-	#    }] } {
-	#    }
-    }
+
+#    if {[db_0or1row select_object_type {
+#	SELECT object_id FROM acs_objects WHERE object_id = :grantee_id AND object_type = 'user'
+#    }] } {
+#    }
 }

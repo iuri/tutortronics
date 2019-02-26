@@ -113,3 +113,14 @@ catch {
     im_ds_display_config_info
 } err_msg
 
+
+
+set session_timeout [parameter::get -package_id [apm_package_id_from_key acs-kernel] -parameter "SessionTimeout" -default 1200000]
+set session_timeout 40
+ns_log Notice "TIMEOUT $session_timeout"
+
+
+
+
+
+
