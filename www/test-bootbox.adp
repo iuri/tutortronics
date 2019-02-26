@@ -15,32 +15,55 @@
   }
 </style>
 
+ 
 <script type="text/javascript">
   $(document).ready(function () {
 //    alert("HELLO");
+var time = "1:54";
 
     window.setInterval(function () {
-      $("div.on1").fadeIn("slow");
+      window.setTimeout(function () {
+        $("div.on1").fadeIn("slow");
 
-      bootbox.confirm({
-	size: "small",
-	message: "Your session is about to expire!",
-      	callback: function(result){
-	  if(result) {
-	    // go
-	  }
-	}
-      });
-
-      $('#ajax-status-message').html('Your session is about to expire! <br> You may click here if you want to extend the session interval');
-
-      $('#ajax-status-message').fadeIn();
-    }, 100);
-
-    return false;
+      
+        bootbox.confirm({
+          message: "<center>Your session is about to expire! <br> " + time + " <br> Do you want to cotinue logged?</center>",
+    	  buttons: {
+      	    confirm: {
+              label: 'Yes',
+	      className: 'btn-success'
+      	    },
+      	    cancel: {
+              label: 'No',
+	      className: 'btn-danger'
+      	    }
+    	  },
+    	  callback: function (result) {
+	    if (result == 1) {
+	      $.ajax({
+	        url: "renew-session",
+	        success: function(result){
+	          $("#div1").html(result);
+	        }
+	      });
+	    }
+      	    console.log('This was logged in the callback: ' + result);
+    	  }
+        });
+      }, 1000);
+    }, 12000);
   });
+
+
+
+
 </script>
       
 
 
 
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.js"></script>
+<script src="/intranet/js/bootbox.js"></script>
