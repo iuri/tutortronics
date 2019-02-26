@@ -7,6 +7,7 @@ ad_proc delete_audit {
     Deletes audit_id recursively
 
 } {
+
     ns_log notice "Running delete_audit $audit_last_id"
 
     set audit_id [db_string select_audit_id {
@@ -15,13 +16,14 @@ ad_proc delete_audit {
 
     if {$audit_id ne 0} {
 	delete_audit -audit_last_id $audit_id
-	
-	ns_log Notice "DO DELETE IT $audit_id"
-	
-	db_dml delete_audit {
-	    DELETE FROM im_audits WHERE audit_id = :audit_last_id
-	}
     }
+
+    ns_log Notice "DO DELETE IT $audit_id"
+    
+    db_dml delete_audit {
+	DELETE FROM im_audits WHERE audit_id = :audit_last_id
+    }
+    
     return
 }
 
@@ -67,8 +69,16 @@ db_foreach select_grantees {
 	# calendar::item::delete -cal_item_id $event_id
 	# ::xo::db::sql::acs_activity delete -activity_id $event_id
 
-	db_dml delete_acs_rel {
-	    DELETE FROM acs_rels WHERE object_id_two = :grantee_id
+	set rel_id [db_string select_acs_rel {
+	    SELECT rel_id FROM acs_rels WHERE object_id_two = :grantee_id
+	} -default ""]
+	
+	db_dml delete_membership_rel {
+	    DELETE FROM membership_rels WHERE rel_id = :rel_id
+	}
+	
+	db_dml delete_rel {
+	    DELETE FROM acs_rels WHERE rel_id = :rel_id
 	}
 
 	::xo::db::sql::acs_object delete -object_id $grantee_id
