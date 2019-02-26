@@ -36,9 +36,13 @@ set edit_all_tasks_p $write
 
 set project_type_id [db_string ptype_id "select project_type_id from im_projects where project_id = :project_id" -default 0]
 set agile_category_type [db_string category_type_id "select aux_string1 from im_categories where category_id = :project_type_id" -default ""]
+<<<<<<< HEAD
 
 
 ns_log Notice "CAT TYPE $agile_category_type | $project_type_id ***"
+=======
+ns_log Notice "CAT TYPE $agile_category_type"
+>>>>>>> 528929904d7e2ccb082474d1a1d5c38a081b0d3f
 if {"" eq $agile_category_type} { 
     ad_return_complaint 1 "Could not determine default agile state range for project_type=[im_category_from_id $project_type_id]"
 }
