@@ -18,8 +18,8 @@
  
 <script type="text/javascript">
   $(document).ready(function () {
-//    alert("HELLO");
-var time = "1:54";
+    //    alert("HELLO");
+    var time = "00:30s";
 
     window.setInterval(function () {
       window.setTimeout(function () {
@@ -27,7 +27,7 @@ var time = "1:54";
 
       
         bootbox.confirm({
-          message: "<center>Your session is about to expire! <br> " + time + " <br> Do you want to cotinue logged?</center>",
+          message: "<center>Your session is about to expire! <br> " + time + " <br> Do you want to cotinue logged in?</center>",
     	  buttons: {
       	    confirm: {
               label: 'Yes',
@@ -43,15 +43,17 @@ var time = "1:54";
 	      $.ajax({
 	        url: "renew-session",
 	        success: function(result){
-	          $("#div1").html(result);
+	          //alert(result);
+		  $("div.on1").fadeOut("slow");
+
 	        }
 	      });
 	    }
-      	    console.log('This was logged in the callback: ' + result);
+      	    // console.log('This was logged in the callback: ' + result);
     	  }
         });
-      }, 1000);
-    }, 12000);
+      }, @alert_timeout@);
+    }, @session_timeout@);
   });
 
 
@@ -59,11 +61,7 @@ var time = "1:54";
 
 </script>
       
-
-
-
 <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.js"></script>
 <script src="/intranet/js/bootbox.js"></script>
