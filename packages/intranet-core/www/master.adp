@@ -132,7 +132,7 @@
 
       
         bootbox.confirm({
-          message: "<center>Your session is about to expire! <br> " + time + " <br> Are you still there ?</center>",
+          message: "<center>Your session is about to expire! <br> " + time + " <br> Are you still there @user.first_names@ ?</center>",
     	  buttons: {
       	    confirm: {
               label: 'Yes',
