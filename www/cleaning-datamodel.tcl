@@ -1,6 +1,7 @@
 
 ad_page_contract {}
-dsdsd
+
+
 ad_proc delete_audit {
     -audit_last_id
 } {
