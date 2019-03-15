@@ -121,10 +121,16 @@ catch {
 # Added chunk to alert the user about session timeout
 # Session timeout parameter is in seconds and JS code is in milliseconds. Thus, * 1000 is added in the formula.
 
+
 set session_timeout [expr [expr [parameter::get -package_id [apm_package_id_from_key acs-kernel] -parameter "SessionTimeout" -default 1200] - 5] * 1000]
 set alert_timeout [expr $session_timeout - 30000]
-acs_user::get -user_id [ad_conn user_id] -array user
-
+if {! 0 == [ad_conn user_id] } {
+    acs_user::get -user_id [ad_conn user_id] -array user
+} else {
+    array set user {
+	first_names "Visitor"
+    }
+}
 template::head::add_css -href "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 template::head::add_css -href "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 
