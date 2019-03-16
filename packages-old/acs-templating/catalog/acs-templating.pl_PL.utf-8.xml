@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="acs-templating" locale="pl_PL" charset="utf-8">
+
+  <msg key="data">danych</msg>
+  <msg key="DefaultSummary">Dane dla %list_name%</msg>
+  <msg key="descending_order">malejąco</msg>
+  <msg key="Element_is_required">%label% jest wymagane</msg>
+  <msg key="Format">Format
+</msg>
+  <msg key="HTML">HTML</msg>
+  <msg key="lt_Checkuncheck_all_rows">Zaznacz / odznacz wszystkie wiersze</msg>
+  <msg key="lt_Checkuncheck_this_row">Zaznacz / odznacz ten wiersz i wybierz akcję do wykonania poniżej</msg>
+  <msg key="No_row_pretty_plural">Brak %row_pretty_plural%.</msg>
+  <msg key="not_ordered">nie sortowane</msg>
+  <msg key="Plain_Text">Czysty Tekst</msg>
+  <msg key="required">wymagane</msg>
+  <msg key="reverse_sort_order_of_label">Odwróć kolejność sortowania %label%</msg>
+  <msg key="Sort_order">Porządek sortowania</msg>
+  <msg key="sort_the_list_by_label">Sortuj listę po %label%</msg>
+</message_catalog>

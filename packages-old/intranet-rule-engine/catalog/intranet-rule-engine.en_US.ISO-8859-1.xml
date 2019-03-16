@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-rule-engine" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="Action_TCL">Action TCL</msg>
+  <msg key="Active">Active</msg>
+  <msg key="After_Creation">After Creation</msg>
+  <msg key="After_Update">After Update</msg>
+  <msg key="Base_Information">Base Information</msg>
+  <msg key="Company_Rule_Audit">Company Rule Audit</msg>
+  <msg key="Condition_TCL">Condition TCL</msg>
+  <msg key="Create_new_rule">Create new rule</msg>
+  <msg key="Cron24">Cron24</msg>
+  <msg key="Currently_No_Log_Entries">There are currently no log entries for this object #%object_id%</msg>
+  <msg key="Delete">Delete</msg>
+  <msg key="Deleted">Deleted</msg>
+  <msg key="Email_Body">Email Body</msg>
+  <msg key="Email_Subject">Email Subject</msg>
+  <msg key="Email_To_TCL">Email To TCL</msg>
+  <msg key="Filter_Rules">Filter Rules</msg>
+  <msg key="Name">Name</msg>
+  <msg key="New_Rule">New Rule</msg>
+  <msg key="Object_Type">Object Type</msg>
+  <msg key="Remove_checked_items">Remove checked items</msg>
+  <msg key="Rule">Rule</msg>
+  <msg key="Rule__Help">Specifies the object type for which to execute the rule.</msg>
+  <msg key="Rule_Action">Action</msg>
+  <msg key="Rule_Action_Email_Body_Help">A string with &amp;#36;varnam substitution. For details please see &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_Email_Subject_Help">A string with &amp;#36;varname substitution. For details please see &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_Email_To_TCL_Help">A TCL expression that returns a list of email addresses. For details please see &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_TCL">Action TCL</msg>
+  <msg key="Rule_Action_TCL_Help">A TCL command to be executed if condition is true. For details please see &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;</msg>
+  <msg key="Rule_Condition">Condition</msg>
+  <msg key="Rule_Condition_TCL">Condition TCL</msg>
+  <msg key="Rule_Condition_TCL_Help">A TCL expression that returns 0 or 1. For details please see &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Description">Description</msg>
+  <msg key="Rule_Description_Help">A human readable description. Usefull for debugging by somebody who didn&#39;t write the rule.</msg>
+  <msg key="Rule_Email_Action">Email Action</msg>
+  <msg key="Rule_Email_To">Email To</msg>
+  <msg key="Rule_Engine">Rule Engine</msg>
+  <msg key="Rule_Invocation_Type">Rule Invocation Type</msg>
+  <msg key="Rule_Invocation_Type_Help">Fire the rule after the creation of the object or after each update of the object? The rule will be executed exactly once when choosing &#39;After Creation&#39;, while it may become executed multiple times when choosing &#39;After Update&#39;.</msg>
+  <msg key="Rule_Items">Rule Items</msg>
+  <msg key="Rule_Name_Help">A short human readable name for the rule.</msg>
+  <msg key="Rule_Sort_Order">Sort Order</msg>
+  <msg key="Rule_Sort_Order_Help">A number between 0 and 1000 that specifies the order or execution of the rule per object.</msg>
+  <msg key="Rule_Status">Rule Status</msg>
+  <msg key="Rule_Status_Help">Used to temporarily deactivate rules. Only active rules are executed.</msg>
+  <msg key="Rule_Type">Rule Type</msg>
+  <msg key="Rule_Type_Help">The rule type is currently not supported.</msg>
+  <msg key="Rules">Rules</msg>
+  <msg key="Sort_Order">Sort Order</msg>
+  <msg key="Type">Type</msg>
+  <msg key="User_Rule_Audit">User Rule Audit</msg>
+</message_catalog>

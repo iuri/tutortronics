@@ -1,0 +1,42 @@
+.gauge_box {
+    width: 100px;
+    /* height: 140px;*/
+    display: inline-block;
+    margin: 0px 35px 0px 35px;
+    vertical-align: top;
+}
+
+.gauge_title {
+    margin: -20px 0px 0px 32px;
+    width:100%;
+    text-align:center;
+}
+
+.component_gauge_more
+ {
+    color: #666666;
+    font-size: '6px';
+}
+
+.gauge_timeline_icon {
+    margin: -20px 0px 0px 32px;
+}
+
+.gauge_value {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.gauge_content {
+    width:100%;
+    max-width:100%;
+    margin:0 auto;
+}
+
+
+.chart_title_container {
+    width:100%;
+    max-width:100%;
+    margin:0 auto;
+    text-align:center;
+}

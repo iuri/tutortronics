@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-reporting-indicators" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="Admin_Indicators">Admin - Indikatoren</msg>
+  <msg key="AdminLinks">Admin</msg>
+  <msg key="Description">Beschreibung</msg>
+  <msg key="Edit">Bearbeiten</msg>
+  <msg key="EditIndicator">Indikator bearbeiten</msg>
+  <msg key="EditIndicators">Indikator bearbeiten</msg>
+  <msg key="End_Date">Endatum</msg>
+  <msg key="Filter_Indicator">Filter Indikatoren</msg>
+  <msg key="Filter_Indicators">Indikatoren filtern</msg>
+  <msg key="History">Historie</msg>
+  <msg key="Home_Indicator_Component">Indikatoren</msg>
+  <msg key="Indicators">Indikatoren</msg>
+  <msg key="Max_Days_Set">Max. Tage</msg>
+  <msg key="More_dots">...</msg>
+  <msg key="Name">Name</msg>
+  <msg key="Object_Type">Objekttyp</msg>
+  <msg key="Query_did_not_return_any_value">Keine Ergebnisse gefunden</msg>
+  <msg key="Query_did_not_return_value">Die SQL Anfrage lieferte keine Werte zurück</msg>
+  <msg key="Section">Sektion</msg>
+  <msg key="SetPermissions">Berechtigungen setzen</msg>
+  <msg key="ShowAllIndicators">Alle Indikatoren anzeigen</msg>
+  <msg key="Start_Date">Startdatum</msg>
+  <msg key="Value">Wert</msg>
+  <msg key="ViewTimeline">Ansicht Zeitleiste</msg>
+</message_catalog>

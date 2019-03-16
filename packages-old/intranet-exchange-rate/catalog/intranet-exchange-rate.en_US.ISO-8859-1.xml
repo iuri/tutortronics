@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-exchange-rate" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="Active_currencies">Active Currencies</msg>
+  <msg key="Add_Active_Currency">Add Active Currency</msg>
+  <msg key="Add_Currencies">Add Currencies</msg>
+  <msg key="Admin_Links">Admin Links</msg>
+  <msg key="Automatic_Update_History">Automatic Update History</msg>
+  <msg key="Automatic_Updates_Days">Automatic Updates Days</msg>
+  <msg key="Automatic_Updates_Enabled_p">Automatic Updates EnabledP</msg>
+  <msg key="Automatic_Updates_Status">Automatic Updates Status</msg>
+  <msg key="Available_Currencies">Available Currencies</msg>
+  <msg key="Button_Get_Exchange_Rates">Get Exchange Rates</msg>
+  <msg key="Button_Get_Exchange_Rates_Now">Get Exchange Rates Now</msg>
+  <msg key="Edit_Parameters">Edit Parameters</msg>
+  <msg key="Enable_Full_ASUS">Enable Full ASUS</msg>
+  <msg key="Exchange_ASUS_Disabled">Exchange ASUS Disabled</msg>
+  <msg key="Exchange_ASUS_Disclaimer">&lt;p&gt;
+
+This service allows you to automatically update your
+
+exchange rates from our exchange rate server.&lt;br&gt;
+
+By using this service you accept that we provide this
+
+service &#39;as is&#39; and don&#39;t accept any liability for
+
+incorrect data and any consequences of using them.
+
+&lt;/p&gt;
+
+</msg>
+  <msg key="Exchange_Rate">Exchange Rate</msg>
+  <msg key="Exchange_Rates">Exchange Rates</msg>
+  <msg key="Filter_Rates">Filter Rates</msg>
+  <msg key="Get_exchange_rates_for_today">Get exchange rates for today</msg>
+  <msg key="Immutable_Currencies">Immutable Currencies</msg>
+  <msg key="Last_Update">Last Update</msg>
+  <msg key="Manage_Active_Currencies">Manage Active Currencies</msg>
+</message_catalog>

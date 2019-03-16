@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-security-update-client" locale="pl_PL" charset="utf-8">
+
+  <msg key="Get_ASUS_Update_information">Pobierz informacje aktualizacyjne ASUS</msg>
+  <msg key="No_Updates_Available">Brak dostępnych aktualizacji</msg>
+  <msg key="Release_Status_Information">Informacja o statusie wydania</msg>
+  <msg key="Security_Updates">Aktualizacje zabezpieczeń</msg>
+  <msg key="Software_Updates">Aktualizacja oprogramowania</msg>
+  <msg key="Your_browser_cant_display_iframes">Twoja przeglądarka nie wyświetla IFrames</msg>
+</message_catalog>

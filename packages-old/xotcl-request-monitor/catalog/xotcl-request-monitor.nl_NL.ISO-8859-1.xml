@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="xotcl-request-monitor" locale="nl_NL" charset="ISO-8859-1">
+
+  <msg key="operation_blocked">Uw aanvraag was meerdere keren naar de server gestuurd en om die reden geblokkeerd. Wacht u aub tot de server heeft gereageerd voordat u de aanvraag wederom stuurt  [&lt;a href=&#34;%url%&#34;&gt;Continue&lt;/a&gt;].</msg>
+  <msg key="repeated_operation">Herhaalde actie</msg>
+</message_catalog>

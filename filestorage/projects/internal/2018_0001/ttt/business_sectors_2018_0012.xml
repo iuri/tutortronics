@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+        <Name>Business Sectors.xml</Name>
+        <Title>Business Sectors.xml</Title>
+        <Manager>Kenneth Wyrick</Manager>
+        <ScheduleFromStart/>
+        <StartDate>2019-01-05T00:00:00</StartDate>
+        <FinishDate>2019-02-05T12:00:00</FinishDate>
+        <Calendars>
+                <Calendar>
+                        <UID>1</UID>
+                        <Name>Standard</Name>
+                        <IsBaseCalendar>true</IsBaseCalendar>
+                        <WeekDays>
+                                <WeekDay>
+                                        <DayType>1</DayType>
+                                        <DayWorking>0</DayWorking>
+                                </WeekDay>
+                                <WeekDay>
+                                        <DayType>7</DayType>
+                                        <DayWorking>0</DayWorking>
+                                </WeekDay>
+                        </WeekDays>
+                </Calendar>
+        </Calendars>
+        <Tasks/>
+        <Resources>
+                <Resource>
+                        <UID>624</UID>
+                        <ID>1</ID>
+                        <Name>Kenneth Wyrick</Name>
+                        <Initials>KeWy</Initials>
+                        <EmailAddress>kmw@rhsrider.net</EmailAddress>
+                        <Type>1</Type>
+                        <Cost>0</Cost>
+                        <AccrueAt>3</AccrueAt>
+                        <StandardRate>30.000</StandardRate>
+                        <OvertimeRate>0</OvertimeRate>
+                        <CostPerUse>0</CostPerUse>
+                        <CalendarUID>624</CalendarUID>
+                </Resource>
+                <Resource>
+                        <UID>57288</UID>
+                        <ID>2</ID>
+                        <Name>Iuri Sampaio</Name>
+                        <Initials>IuSa</Initials>
+                        <EmailAddress>iuri@iurix.com</EmailAddress>
+                        <Type>1</Type>
+                        <Cost>0</Cost>
+                        <AccrueAt>3</AccrueAt>
+                        <StandardRate>30</StandardRate>
+                        <OvertimeRate>0</OvertimeRate>
+                        <CostPerUse>0</CostPerUse>
+                        <CalendarUID>57288</CalendarUID>
+                </Resource>
+        </Resources>
+        <Assignments/>
+</Project>
+

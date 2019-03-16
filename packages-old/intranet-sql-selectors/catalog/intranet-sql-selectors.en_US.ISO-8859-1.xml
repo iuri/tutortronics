@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-sql-selectors" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="--_Please_select_--">-- Please Select --</msg>
+  <msg key="Admin">Admin</msg>
+  <msg key="Admin_Selectors">Admin Selectors</msg>
+  <msg key="Description">Description</msg>
+  <msg key="Filter_Selectors">Filter Selectors</msg>
+  <msg key="My_Results">My Results</msg>
+  <msg key="Name">Name</msg>
+  <msg key="Name_must_be_unique">Name is unique</msg>
+  <msg key="New_Selector">New Selector</msg>
+  <msg key="Object_Type">Object Type</msg>
+  <msg key="Object_Type_Projects">Projects</msg>
+  <msg key="Object_Type_Tickets">Tickets</msg>
+  <msg key="One_Selector">One Selector</msg>
+  <msg key="Save_Changes">Save Changes</msg>
+  <msg key="Selector_Base_Data">Base Data</msg>
+  <msg key="Selector_Name">Name</msg>
+  <msg key="Selector_SQL">Selector SQL</msg>
+  <msg key="Selector_Status">Status</msg>
+  <msg key="Selector_Type">Type</msg>
+  <msg key="Selectors">Selectors</msg>
+  <msg key="Short_Name">Short Name</msg>
+  <msg key="Short_name_must_be_unique">Short name is unique</msg>
+  <msg key="Total_Results">Total Results</msg>
+  <msg key="What_type_of_objects">What type of object does the selector select?</msg>
+</message_catalog>

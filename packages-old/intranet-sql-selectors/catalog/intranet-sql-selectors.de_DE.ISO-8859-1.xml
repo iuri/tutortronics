@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-sql-selectors" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="--_Please_select_--">-- Bitte Auswählen --</msg>
+  <msg key="Admin">Admin</msg>
+  <msg key="Admin_Selectors">Admin - Selektoren</msg>
+  <msg key="Description">Beschreibung</msg>
+  <msg key="Filter_Selectors">Filter Selektoren</msg>
+  <msg key="My_Results">Meine Ergebnisse</msg>
+  <msg key="Name">Name</msg>
+  <msg key="Name_must_be_unique">Name muss eindeutig sein</msg>
+  <msg key="New_Selector">Neuer Selektor</msg>
+  <msg key="Object_Type">Objekttyp</msg>
+  <msg key="Object_Type_Projects">Projekte</msg>
+  <msg key="Object_Type_Tickets">Tickets</msg>
+  <msg key="One_Selector">One Selector</msg>
+  <msg key="Save_Changes">Save Changes</msg>
+  <msg key="Selector_Base_Data">Base Data</msg>
+  <msg key="Selector_Name">Name</msg>
+  <msg key="Selector_SQL">Selektor-SQL</msg>
+  <msg key="Selector_Status">Status</msg>
+  <msg key="Selector_Type">Typ</msg>
+  <msg key="Selectors">Selectors</msg>
+  <msg key="Short_Name">Kurzname</msg>
+  <msg key="Short_name_must_be_unique">Kurzname muss eindeutig sein</msg>
+  <msg key="SQL_Selectors">SQL-Selektoren</msg>
+  <msg key="Total_Results">Anzahl Ergebnisse</msg>
+  <msg key="What_type_of_objects">Für welche Objekttypen?</msg>
+</message_catalog>

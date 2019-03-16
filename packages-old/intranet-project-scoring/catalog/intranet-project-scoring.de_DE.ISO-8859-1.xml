@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-project-scoring" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="Name">Name</msg>
+  <msg key="Project_Scoring">Scoring</msg>
+  <msg key="Survey_doesnt_exist">Umfrage existiert nicht</msg>
+  <msg key="Survey_Link">Umfrage-Link</msg>
+  <msg key="Value">Wert</msg>
+</message_catalog>

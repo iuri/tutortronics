@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-reporting-finance" locale="pl_PL" charset="utf-8">
+
+  <msg key="Finance_Documents_and_their_Projects">Finanse - dokumenty finansowe i ich projekty</msg>
+  <msg key="Finance_Expense_Reimbursement">Finanse - Refundacja wydaktów</msg>
+  <msg key="Finance_Expenses">Finanse - wydatki</msg>
+  <msg key="Finance_Expenses_Cube">Finanse - kostka wydatków</msg>
+  <msg key="Finance_Income_Statement">Finanse - zestawienie przychodów</msg>
+  <msg key="Finance_Monthly_Summary">Finanse - podsumowanie miesięczne</msg>
+  <msg key="Finance_Payment_Balance">Finanse - bilans płatności</msg>
+  <msg key="Finance_Projects_and_their_Documents">Finanse - projekty i ich dokumenty</msg>
+  <msg key="Finance_Provider_Costs_per_Month">Finanse - koszty dostawców na miesiąc</msg>
+  <msg key="No_customer">Brak klienta</msg>
+  <msg key="No_project">Brak projektu</msg>
+</message_catalog>

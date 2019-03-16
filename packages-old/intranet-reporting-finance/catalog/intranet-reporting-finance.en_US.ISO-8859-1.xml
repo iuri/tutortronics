@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="intranet-reporting-finance" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="Finance_Documents_and_their_Projects">Finance - Financial Documents And Their Projects</msg>
+  <msg key="Finance_Expense_Reimbursement">Finance - Expense Reimbursement</msg>
+  <msg key="Finance_Expenses">Finance - Expenses</msg>
+  <msg key="Finance_Expenses_Cube">Finance - Expenses Cube</msg>
+  <msg key="Finance_Income_Statement">Finance - Income Statement</msg>
+  <msg key="Finance_Monthly_Summary">Finance - Monthly Summary</msg>
+  <msg key="Finance_Payment_Balance">Finance - Payment Balance</msg>
+  <msg key="Finance_Projects_and_their_Documents">Finance - Projects And Their Documents</msg>
+  <msg key="Finance_Provider_Costs_per_Month">Finance - Provider Costs Per Month</msg>
+  <msg key="No_customer">No customer</msg>
+  <msg key="No_project">No project</msg>
+</message_catalog>

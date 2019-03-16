@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="senchatouch-timesheet" locale="pl_PL" charset="utf-8">
+
+  <msg key="Mobile_Timesheet">Mobilny Timesheet</msg>
+  <msg key="REST_Main_Project_Tasks_with_Hours">REST Main Project Tasks with Hours</msg>
+  <msg key="REST_Main_Projects_with_Hours">REST Main Projects with Hours</msg>
+</message_catalog>

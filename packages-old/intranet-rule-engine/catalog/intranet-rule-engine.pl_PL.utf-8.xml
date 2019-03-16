@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-rule-engine" locale="pl_PL" charset="utf-8">
+
+  <msg key="Action_TCL">TCL Akcji</msg>
+  <msg key="Active">Aktywna</msg>
+  <msg key="After_Creation">Po utworzeniu</msg>
+  <msg key="After_Update">Po aktualizacji</msg>
+  <msg key="Base_Information">Informacje podstawowe</msg>
+  <msg key="Company_Rule_Audit">Audyt firmy</msg>
+  <msg key="Condition_TCL">TCL warunku</msg>
+  <msg key="Create_new_rule">Utwórz nową regułę</msg>
+  <msg key="Currently_No_Log_Entries">Nie ma w tej chwili wpisów w logu dla obiektu nr %object_id%</msg>
+  <msg key="Delete">Skasuj</msg>
+  <msg key="Delete_Logs">Skasuj logi</msg>
+  <msg key="Deleted">Usunięta</msg>
+  <msg key="Email_Body">Ciało e-maila</msg>
+  <msg key="Email_Subject">Temat e-maila</msg>
+  <msg key="Email_To_TCL">TCL wyślij do</msg>
+  <msg key="Filter_Rules">Filtruj reguły</msg>
+  <msg key="Name">Nazwa</msg>
+  <msg key="New_Rule">Nowa reguła</msg>
+  <msg key="Object_Type">Typ obiektu</msg>
+  <msg key="Project_Rule_Audit">Audyt projektu</msg>
+  <msg key="Remove_checked_items">Usuń zaznaczone elementy</msg>
+  <msg key="Rule">Reguła</msg>
+  <msg key="Rule__Help">Podaje typ obiektu, dla którego wykonać regułę.</msg>
+  <msg key="Rule_Action">Akcja</msg>
+  <msg key="Rule_Action_Email_Body_Help">String z podstawieniem &amp;#36;varnam. Jeżeli interesują cię szczegóły zajrzyj na &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_Email_Subject_Help">String z podstawieniem &amp;#36;varnam. Jeżeli interesują cię szczegóły zajrzyj na &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_Email_To_TCL_Help">Wyrażenie TCL, które zwraca listę adresów e-mail. Jeżeli interesują cię szczegóły zajrzyj na &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Action_TCL">TCL akcji</msg>
+  <msg key="Rule_Action_TCL_Help">Komenda TCL, która będzie wykonana jeżeli wyrażenie będzie prawdą. Jeżeli interesują cię szczegóły zajrzyj na &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Condition">Warunek</msg>
+  <msg key="Rule_Condition_TCL">Warunek TCL</msg>
+  <msg key="Rule_Condition_TCL_Help">Wyrażenie TCL, które zwraca 0 lub 1. Jeżeli interesują cię szczegóły zajrzyj na &lt;a href=http://www.project-open.net/en/package-intranet-rule-engine&gt;Rule Engine Package&lt;/a&gt;.</msg>
+  <msg key="Rule_Date">Data</msg>
+  <msg key="Rule_Description">Opis</msg>
+  <msg key="Rule_Description_Help">Opis czytelny dla człowieka. Użyteczny przy debagowaniu przez kogoś, kto nie napisał reguły.</msg>
+  <msg key="Rule_Email_Action">Akcja e-mail</msg>
+  <msg key="Rule_Email_To">E-mail do</msg>
+  <msg key="Rule_Engine">Silnik Reguł</msg>
+  <msg key="Rule_Invocation_Type">Typ wywołania reguły</msg>
+  <msg key="Rule_Invocation_Type_Help">Odpalić regułę po utworzeniu obiektu, czy po każdej zmianie obiektu? Reguła będzie uruchomiona dokładnie raz jeżeli wybierzesz opcję &#34;Po utworzeniu&#34;, a może być wywoływana wiele razy jeżeli wybierzesz &#34;Po aktualizacji&#34;.</msg>
+  <msg key="Rule_Items">Elementy reguły</msg>
+  <msg key="Rule_Log_Source">Żródło</msg>
+  <msg key="Rule_Message">Wiadomość</msg>
+  <msg key="Rule_Name">Nazwa</msg>
+  <msg key="Rule_Name_Help">Krótka czytelna nazwa dla reguły</msg>
+  <msg key="Rule_Sort_Order">Porządek sortowania</msg>
+  <msg key="Rule_Sort_Order_Help">Liczba pomiędzy 0 a 1000, która określa porządek lub wykonanie reguły na obiekcie.</msg>
+  <msg key="Rule_Statement">Wyrażenie</msg>
+  <msg key="Rule_Status">Status reguły</msg>
+  <msg key="Rule_Status_Help">Wykorzystywane do tymczasowej deaktywacji reguł. Tylko aktywne reguły są wykonywane. </msg>
+  <msg key="Rule_Type">Typ reguły</msg>
+  <msg key="Rule_Type_Help">Typ reguły nie jest w tej chwili wspierany.</msg>
+  <msg key="Rules">Reguły</msg>
+  <msg key="Sort_Order">Kolejność sortowania</msg>
+  <msg key="Ticket_Rule_Audit">Audyt zgłoszenia</msg>
+  <msg key="Type">Typ</msg>
+  <msg key="User_Rule_Audit">Audyt użytkownika</msg>
+</message_catalog>

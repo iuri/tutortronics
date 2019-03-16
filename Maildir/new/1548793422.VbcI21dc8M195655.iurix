@@ -1,0 +1,71 @@
+Return-Path: <>
+X-Original-To: projop@iurix.com
+Delivered-To: projop@iurix.com
+Received: by mail.iurix.com (Postfix)
+	id 2D63A21DC5; Tue, 29 Jan 2019 20:23:42 +0000 (UTC)
+Date: Tue, 29 Jan 2019 20:23:42 +0000 (UTC)
+From: MAILER-DAEMON@mail.iurix.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: projop@iurix.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C0B2921DC3.1548793422/mail.iurix.com"
+Message-Id: <20190129202342.2D63A21DC5@mail.iurix.com>
+
+This is a MIME-encapsulated message.
+
+--C0B2921DC3.1548793422/mail.iurix.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host mail.iurix.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<d@iurix.com>: unknown user: "d"
+
+--C0B2921DC3.1548793422/mail.iurix.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.iurix.com
+X-Postfix-Queue-ID: C0B2921DC3
+X-Postfix-Sender: rfc822; projop@iurix.com
+Arrival-Date: Tue, 29 Jan 2019 20:23:41 +0000 (UTC)
+
+Final-Recipient: rfc822; d@iurix.com
+Original-Recipient: rfc822;d@iurix.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: X-Postfix; unknown user: "d"
+
+--C0B2921DC3.1548793422/mail.iurix.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <projop@iurix.com>
+Received: by mail.iurix.com (Postfix, from userid 1004)
+	id C0B2921DC3; Tue, 29 Jan 2019 20:23:41 +0000 (UTC)
+Subject: Send email from projop
+To: <iuri.sampaio@gmail.com>
+Cc: <d@iurix.com>
+X-Mailer: mail (GNU Mailutils 3.1.1)
+Message-Id: <20190129202341.C0B2921DC3@mail.iurix.com>
+Date: Tue, 29 Jan 2019 20:23:41 +0000 (UTC)
+From: projop@iurix.com
+
+frewfergfe
+refgergf
+.
+
+
+--C0B2921DC3.1548793422/mail.iurix.com--

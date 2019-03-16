@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="intranet-reporting-indicators" locale="pl_PL" charset="utf-8">
+
+  <msg key="Admin_Indicators">Wskaźniki administratora</msg>
+  <msg key="AdminLinks">Linki administratora</msg>
+  <msg key="Description">Opis</msg>
+  <msg key="Edit">Edytuj</msg>
+  <msg key="EditIndicator">Edytuj wskaźnik</msg>
+  <msg key="EditIndicators">Edytuj wskaźnik</msg>
+  <msg key="End_Date">Data Końcowa</msg>
+  <msg key="Filter_Indicator">Filtruj wskaźniki</msg>
+  <msg key="Filter_Indicators">Filtruj wskaźniki</msg>
+  <msg key="History">Historia</msg>
+  <msg key="Home_Indicator_Component">Tablica wskaźników</msg>
+  <msg key="Indicators">Wskaźniki</msg>
+  <msg key="Max_Days_Set">Ustawiona maksymalna ilość dni</msg>
+  <msg key="More_dots">...</msg>
+  <msg key="Name">Nazwa</msg>
+  <msg key="Object_Type">Typ obiektu</msg>
+  <msg key="Query_did_not_return_any_value">Zapytanie nie zwróciło żadnych wartości</msg>
+  <msg key="Query_did_not_return_value">Zapytanie nie zwróciło żadnych wartości</msg>
+  <msg key="Section">Sekcja</msg>
+  <msg key="SetPermissions">Ustaw uprawnienia</msg>
+  <msg key="ShowAllIndicators">Pokaż wszystkie wskaźniki</msg>
+  <msg key="Start_Date">Data początkowa</msg>
+  <msg key="Value">Wartość</msg>
+  <msg key="ViewTimeline">Wyświetl linię czasu</msg>
+</message_catalog>
